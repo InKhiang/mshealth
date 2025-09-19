@@ -214,28 +214,31 @@ span {
   font-weight: bold;
 }
 
-.homepanel-select-label {
-    font-weight: 600;
-    margin-bottom: 4px;
+/*----- Attention Arrow -----*/
 
-top: 25%;
-
+.panel-menu {
+	top: 38%;
+	left: 40%;
+	width: 100%;
+	position: relative;
+	vertical-align: middle;
+	align-content: center;
+    justify-content: space-around;
 }
 
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+.panel-select {
+	top: 37%;
+	width: 25px;
+	height: 25px;
+	position: relative;
+	animation: mymove 1s infinite alternate;
+	background-image: url("./images/arrow-right.png");
+	background-repeat: no-repeat, repeat;
+	background-size: 100% 100%;
 }
 
-.fa-arrow-down:before {
-    content: "\f063";
+@keyframes mymove {
+	from {left: 0px;}
+	to {left: 30px;}
 }
-
-.cv-attention-arrow {
-    position: absolute;
-    color: #ff9c00;
-    font-size: 3em !important;
-    animation: attention-updown 0.5s infinite alternate;
-}
+/*END:----- Attention Arrow -----*/
