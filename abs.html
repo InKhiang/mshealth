@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercises</title>
+<style>
+	body::-webkit-scrollbar {display: none;}
+	body {-ms-overflow-style: none;}
+	body {margin: 0;}
+
+	body, h1, h2, h3, h4, h5, h6  {
+	  font-family: Tahoma, sans-serif;
+	}
+
+	.banner {
+	   position:sticky;
+	   top: 0px;
+	   background-color: #FFF;
+	}
+	.sider-1 {
+	   background-color: #FFF;
+	   height: 40px;
+	   width: 100%;
+	   align-content: end;
+	}
+	.sider-2 {
+	   background-color: #3F48CC;
+	   height: 18px; 
+	   width: 100%;
+	   align-content: baseline;
+	   position: relative;
+	}
+		.mhhome {
+	   width: auto;
+	   height: 25px;
+	   position:relative;
+	   margin-left: 10px;
+	   padding-bottom: 4px;
+	}
+	.mhlogo {
+	   width: auto;
+	   height: 35px;
+	   position:relative;
+	   margin-left: 5px;
+	}
+	div.lable-1 {
+	  position: absolute;
+	  top: 8px;
+	  left: 16px;
+	  margin-top: 1px;
+	  margin-left: 32px;
+	  font-family: Tahoma, sans-serif;
+	  font-size: 12px;
+	  font-weight: bold;
+	  line-height: 1px;
+	  color: #FFFFFF
+	}
+	div.lable-2 {
+	  position: absolute;
+	  top: 8px;
+	  right: 16px;
+	  margin-top: 1px;
+	  margin-right: 28px;
+	  font-family: Tahoma, sans-serif;
+	  font-size: 12px;
+	  font-weight: bold;
+	  line-height: 1px;
+	  color: #FFFFFF
+	}
+
+	table, th, td {border-collapse: collapse; border: none; align: center;}
+
+	tr {height: 40px;}
+	td.cell-1 {width:75px;}
+	td.cell-2 {width:100%; cursor: pointer;}	
+	td.cell-3 {width:50px;}
+  
+	td.cell-2:hover {font-weight: bold; color: #E34C00;}
+
+	h2 {
+	  font-family: 'Roboto';
+	  font-size: 20px;
+	  font-weight: bold;
+	  text-align: center;
+	}
+
+	p {
+		font-family: 'Roboto';
+		font-size: 13px;
+		text-align: left;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	table.main-menu {
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
+	td.border-lb {
+		border: 1px solid gray; 
+		border-width: 0 0 1px 0 ;
+	}
+ 
+	img.action-fit {
+		display: block;
+		margin-left: 15px;
+		margin-right: 5px;
+		width:	45px;
+		height: 45px;
+    }
+
+	img.btnarrow {
+		display: block;
+		margin-left: auto;
+		margin-right: 20px;
+		width:	10px;
+		height: 15px;
+	}
+
+	.footer {
+	   position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   height: 18px;
+	   background-color: #3F48CC;
+	   color: white;
+	}
+
+	.poworby {
+		text-align: center;
+		margin-top: 2px;
+		font-family: 'Roboto';
+		font-size: 11px;
+	}
+
+</style>
+</head>
+
+<body>
+	<script>
+		function myExercises(posture) {
+			window.open("exercises.html?exercises="+posture, "_parent");
+		
+		}
+	</script>
+
+<div class="banner">
+	<div class="sider-1">
+		<img class="mhhome" src="./images/home.png">
+		<img class="mhlogo" src="./images/mh-logo.png">
+	</div>
+	<div class="sider-2">
+		<div class="lable-1" >YOU's CHALLENGE</div>
+		<div class="lable-2" >ABS : ท่าฝึกหน้าท้อง</div>
+	</div>
+</div>
+
+<div style="width:100%; display: block; position: initial;">
+<table id="abs" class="main-menu" style="width:100%">
+  <tr style="height:10px"></tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-001/posture-1.png"></td>
+    <td id="abs-001" class="border-lb cell-2" onclick="myExercises(1)"><p>Incline Bench Sit-Ups<br>ท่าซิทอัพแบบเอนบนม้านั่ง</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-002/posture-1.png"></td>
+    <td id="abs-002" class="border-lb cell-2" onclick="myExercises(2)"><p>Hanging Leg Raises<br>ท่ายกขาแบบแขวน</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-003/posture-1.png"></td>
+    <td id="abs-003" class="border-lb cell-2" onclick="myExercises(3)"><p>Dumbbell Side Bends<br>ท่ายกดัมเบลและบิดไปด้านข้าง</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>  
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-004/posture-1.png"></td>
+    <td id="abs-004" class="border-lb cell-2" onclick="myExercises(4)"><p>Crunches<br>ท่าครันช์ ฝึกแบบงอตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-005/posture-1.png"></td>
+    <td id="abs-005" class="border-lb cell-2" onclick="myExercises(5)"><p>Sit-Ups<br>ท่าซิทอัพ</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-006/posture-1.png"></td>
+    <td id="abs-006" class="border-lb cell-2" onclick="myExercises(6)"><p>Leg Raises<br>ท่าฝึกแบบยกขาขึ้น</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-007/posture-1.png"></td>
+    <td id="abs-007" class="border-lb cell-2" onclick="myExercises(7)"><p>Flat Bench Lying Leg Raise<br>ท่านอนราบบนม้านั่งขาเหยียดตรง</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-008/posture-1.png"></td>
+    <td id="abs-008" class="border-lb cell-2" onclick="myExercises(8)"><p>Seated Jackknife<br>ท่านั่งแบบมีดพับ</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-009/posture-1.png"></td>
+    <td id="abs-009" class="border-lb cell-2" onclick="myExercises(9)"><p>Twisting Hip Raise<br>ท่าบิดสะโพกยก</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-010/posture-1.png"></td>
+    <td id="abs-010" class="border-lb cell-2" onclick="myExercises(10)"><p>Twisting Hip Raise<br>ท่าบิดสะโพกยก</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-011/posture-1.png"></td>
+    <td id="abs-011" class="border-lb cell-2" onclick="myExercises(11)"><p>Twisting Hip Raise<br>ท่าบิดสะโพกยก</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-012/posture-1.png"></td>
+    <td id="abs-012" class="border-lb cell-2" onclick="myExercises(12)"><p>Bodyweight Crunch<br>ท่าครันช์ ใช้น้ำหนักตัวฝึกแบบงอตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-013/posture-1.png"></td>
+    <td id="abs-013" class="border-lb cell-2" onclick="myExercises(13)"><p>Core Twist<br>ท่าคอร์ทวิสต์ บิดร่างกาย</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-014/posture-1.png"></td>
+    <td id="abs-014" class="border-lb cell-2" onclick="myExercises(14)"><p>Side Bridge<br>ท่าไซด์บริดจ์</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-015/posture-1.png"></td>
+    <td id="abs-015" class="border-lb cell-2" onclick="myExercises(15)"><p>Bodyweight Hip Extension<br>ท่ายืดยกตัวด้วยสะโพก</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-016/posture-1.png"></td>
+    <td id="abs-016" class="border-lb cell-2" onclick="myExercises(16)"><p>Rotating T Extension<br>ท่าหมุนตัวทีเหยียดตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-017/posture-1.png"></td>
+    <td id="abs-017" class="border-lb cell-2" onclick="myExercises(17)"><p>Superman<br>ท่าซุปเปอร์แมน</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-018/posture-1.png"></td>
+    <td id="abs-018" class="border-lb cell-2" onclick="myExercises(18)"><p>Bodyweight Toe Touch<br>ท่าแตะปลายเท้าด้วยน้ำหนักตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-019/posture-1.png"></td>
+    <td id="abs-019" class="border-lb cell-2" onclick="myExercises(19)"><p>Bent-Leg V-UP<br>ท่ายกตัวงอขารูปตัววี</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-020/posture-1.png"></td>
+    <td id="abs-020" class="border-lb cell-2" onclick="myExercises(20)"><p>Bodyweight Toe Touch 2<br>ท่าแตะปลายเท้าด้วยน้ำหนักตัว 2</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-021/posture-1.png"></td>
+    <td id="abs-021" class="border-lb cell-2" onclick="myExercises(21)"><p>Bodyweight Scissor Kick<br>ท่าเตะไขว้ขาด้วยน้ำหนักตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-022/posture-1.png"></td>
+    <td id="abs-022" class="border-lb cell-2" onclick="myExercises(22)"><p>Bodyweight Pull In<br>ท่าดึงเข้าด้วยน้ำหนักตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-023/posture-1.png"></td>
+    <td id="abs-023" class="border-lb cell-2" onclick="myExercises(23)"><p>Bodyweight Sit-up<br>ท่าซิทอัพด้วยน้ำหนักตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-024/posture-1.png"></td>
+    <td id="abs-024" class="border-lb cell-2" onclick="myExercises(24)"><p>Toe Touch<br>ท่าแตะปลายเท้า</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-025/posture-1.png"></td>
+    <td id="abs-025" class="border-lb cell-2" onclick="myExercises(25)"><p>Bodyweight Crunch<br>ท่าครันช์ งอตัวด้วยน้ำหนักตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-026/posture-1.png"></td>
+    <td id="abs-026" class="border-lb cell-2" onclick="myExercises(26)"><p>Toe Touch 2<br>ท่าท่าแตะนิ้วเท้า 2</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-027/posture-1.png"></td>
+    <td id="abs-027" class="border-lb cell-2" onclick="myExercises(27)"><p>Bodyweight Crunch 2<br>ท่าครันช์ งอตัวด้วยน้ำหนักตัว 2</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"><img class="action-fit" src="./images/abs/abs-028/posture-1.png"></td>
+    <td id="abs-028" class="border-lb cell-2" onclick="myExercises(28)"><p>Stability Ball Crunch<br>ท่าครันช์ งอตัวบนลูกบอลทรงตัว</p></td>
+    <td class="cell-3"><img class="btnarrow" src="./images/arrow1right.png"></td>
+  </tr>
+  <tr>
+    <td class="cell-1"></td>
+    <td class="border-lb cell-2" onclick="myExercises(1)"></div>
+    <td class="cell-3"></td>
+  </tr>
+</table>
+</div>
+
+<div class="footer">
+  <p class="poworby">Powor by M Sports Therapies.</p>
+</div>
+
+</body>
+</html>

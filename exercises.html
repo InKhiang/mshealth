@@ -1,11 +1,195 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>Exercises</title>
+
+	<style>
+		body::-webkit-scrollbar {display: none;}
+		body {-ms-overflow-style: none;}
+
+		body {margin: 0;}
+
+		body, h1, h2, h3, h4, h5, h6  {
+		  font-family: Tahoma, sans-serif;
+		}
+
+		a:link {color: Black;}
+		a:link {text-decoration: none;}
+		a:visited {text-decoration: none;}
+		a:hover {text-decoration: none;}
+		a:active {text-decoration: none;}
+
+		div.gallery {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: center;
+		  padding-top: 5px;
+		}
+
+		div.gallery-item {
+		  width: 70px;
+		  height: 105px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  margin: 3px;
+		}
+
+		div.gallery-item:hover {
+		  border: 1px solid #777;
+		}
+
+		div.gallery-item img:hover {
+		  -webkit-transform: scale(1.3);
+		  transform: scale(1.3);
+		}
+
+		div.gallery-item img {
+		  width: 100%;
+		  height: auto;
+		}
+
+		div.gallery-item p.desc {
+		  text-align: center;
+		  font-family: Tahoma, sans-serif;
+		  font-size: 10px;
+		  font-weight: bold;
+		  line-height: 1px;
+		  margin-top: 7px;
+		}
+
+		div.gallery-item p.desc-t {
+		  text-align: center;
+		  font-family: Tahoma, sans-serif;
+		  font-size: 12px;
+		  font-weight: bold;
+		  line-height: 1px;
+		  padding-top: 1px;
+		}
+
+		.banner { position:relative; }
+		.sider-1 {
+		   background-color: #FFF;
+		   height: 40px;
+		   width: 100%;
+		   align-content: end;
+		}
+		.sider-2 {
+		   background-color: #3F48CC;
+		   height: 18px; 
+		   width: 100%;
+		   align-content: baseline;
+		   position: relative;
+		}
+
+		.mhhome {
+		   width: auto;
+		   height: 25px;
+		   position:relative;
+		   margin-left: 10px;
+		   padding-bottom: 4px;
+		}
+		
+		.mhlogo {
+		   width: auto;
+		   height: 35px;
+		   position:relative;
+		   margin-left: 5px;
+		}
+
+		div.lable-1 {
+		  position: absolute;
+		  top: 8px;
+		  left: 16px;
+		  margin-top: 1px;
+		  margin-left: 32px;
+		  font-family: Tahoma, sans-serif;
+		  font-size: 12px;
+		  font-weight: bold;
+		  line-height: 1px;
+		  color: #FFFFFF
+		}
+		
+		div.lable-2 {
+		  position: absolute;
+		  top: 8px;
+		  right: 16px;
+		  margin-top: 1px;
+		  margin-right: 28px;
+		  font-family: Tahoma, sans-serif;
+		  font-size: 12px;
+		  font-weight: bold;
+		  line-height: 1px;
+		  color: #FFFFFF
+		}
+
+
+	</style>
 </head>
 <body>
-    <h2>Exercises</h2>
+
+<section class="banner">
+	<div class="sider-1">
+	<img class="mhhome" src="./images/home.png">
+		<img class="mhlogo" src="./images/mh-logo.png">
+	</div>
+	<div class="sider-2">
+		<div class="lable-1" >YOU's CHALLENGE</div>
+		<div class="lable-2" >EXERCISES</div>
+	</div>
+
+</section>
+
+<div class="gallery">
+
+	<div class="gallery-item">
+	  <a href="chest.html">
+		<img src="./images/chest.png"> <p class="desc">CHEST</p> <p class="desc-t">หน้าอก</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="shoulders.html">
+		<img src="./images/shoulders.png"> <p class="desc">SHOULDERS</p> <p class="desc-t">ไหล่</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="triceps.html">
+		<img src="./images/triceps.png"> <p class="desc">TRICEPS</p> <p class="desc-t">ไตรเซ็ปส์</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="abs.html">
+		<img src="./images/abs.png"> <p class="desc">ABS</p> <p class="desc-t">หน้าท้อง</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="back.html">
+		<img src="./images/back.png"> <p class="desc">BACK</p> <p class="desc-t">หลัง</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="biceps.html">
+		<img src="./images/biceps.png"> <p class="desc">BICEPS</p> <p class="desc-t">ไบเซ็ปส์</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="forearms.html">
+		<img src="./images/forearms.png"> <p class="desc">FOREARMS</p> <p class="desc-t">ปลายแขน</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="legs.html">
+		<img src="./images/legs.png"> <p class="desc">LEGS</p> <p class="desc-t">ขา</p>
+	  </a>
+	</div>
+	<div class="gallery-item">
+	  <a href="calf.html">
+		<img src="./images/calf.png"> <p class="desc">CALF</p> <p class="desc-t">น่อง</p>
+	  </a>
+	</div>
+
+</div>
+
 </body>
 </html>
